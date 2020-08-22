@@ -6,3 +6,4 @@
 /.php_cs.cache
 /vendor/*
 /codeCoverage/*
+/src/Service/SubObject/fqnClassNameAssociation.json

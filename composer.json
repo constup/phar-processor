@@ -11,14 +11,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "Constup\\PharProcessor\\": "src/"
+            "Constup\\PharProcessor\\": "src/",
+            "Constup\\Automatrix\\": "automatrix_core/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Constup\\PharProcessor\\Tests\\": "tests/"
+            "Constup\\PharProcessor\\Tests\\": "tests/",
+            "Constup\\Automatrix\\Tests\\": "automatrix_core/tests/"
         }
     },
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "require-dev": {
+    }
 }
